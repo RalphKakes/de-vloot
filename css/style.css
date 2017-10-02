@@ -1,0 +1,73 @@
+body{
+	margin-left: 370px;
+	margin-right: 370px;
+	font-family: sans-serif;
+	background: url("grfx/bg.png");
+	background-repeat: repeat-x;
+}
+section.text{
+	background-color: white;
+	background: url("grfx/header.jpg");
+	padding-bottom:80px;
+	height: 170px;
+}
+
+section.text li{
+	float: left;
+	padding: 20px;
+}
+
+section.text ul{
+
+	text-decoration: none;
+	list-style-type: none;
+}
+.top-left{
+	float: left;
+}
+
+section.test{
+
+	padding-bottom: 50px;
+}
+
+.float-right{
+	float: right;
+}
+
+.vloot3{
+	float: left;
+}
+
+section.test2{
+	background-color: white;
+	padding-bottom: 100px
+
+}
+.naar-links{
+	float:right;
+}
+.naar-beneden{
+	float:left;
+	margin-top: 25px;
+}
+.duikboooten{
+	margin-top: 35px;
+	padding-bottom: 50px;
+	float: left;
+}
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+li a:hover {
+	color: green
+
+}
+li a {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
