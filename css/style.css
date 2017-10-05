@@ -14,7 +14,7 @@ section.text{
 
 section.text li{
 	float: left;
-	padding: 20px;
+	padding: 10px;
 }
 
 section.text ul{
@@ -24,6 +24,12 @@ section.text ul{
 }
 .top-left{
 	float: left;
+	padding: 20px;
+
+}
+
+.top-menu{
+	padding-top: 120px;
 }
 
 section.test{
@@ -33,19 +39,25 @@ section.test{
 
 .float-right{
 	float: right;
+	padding: 20px;
 }
 
 .vloot3{
 	float: left;
+	padding: 20px;
 }
 
 section.test2{
 	background-color: white;
 	padding-bottom: 100px
+}
 
+h2{
+	background-color: white;
 }
 .naar-links{
 	float:right;
+	padding: 20px;
 }
 .naar-beneden{
 	float:left;
@@ -70,4 +82,13 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+li a{
+	padding-bottom: 5px;
+}
+h2{
+	margin-top: 20px;
+}
+.ruimte{
+	padding: 20px;
 }
