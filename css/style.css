@@ -62,6 +62,7 @@ h2{
 .naar-beneden{
 	float:left;
 	margin-top: 25px;
+	padding: 10px;
 }
 .duikboooten{
 	margin-top: 35px;
@@ -71,7 +72,8 @@ h2{
 a:link {
   color: blue;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
+  
 }
 li a:hover {
 	color: green
@@ -90,5 +92,25 @@ h2{
 	margin-top: 20px;
 }
 .ruimte{
+	padding: 20px;
+	float: left;
+}
+.position{
+	position: absolute;
+	right: 350px;
+	bottom: : 100px;
+	
+}
+.totheleft{
+	float: right;
+	
+}
+.vloot5{
+	float: left;
+	padding: 20px;
+
+}
+.vloot12{
+	float: right;
 	padding: 20px;
 }
