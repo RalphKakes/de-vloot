@@ -1,116 +1,71 @@
-body{
-	margin-left: 370px;
-	margin-right: 370px;
-	font-family: sans-serif;
-	background: url("grfx/bg.png");
-	background-repeat: repeat-x;
-}
-section.text{
-	background-color: white;
-	background: url("grfx/header.jpg");
-	padding-bottom:80px;
-	height: 170px;
+body {
+    background: url('grfx/bg.png') repeat-x;
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
 }
 
-section.text li{
-	float: left;
-	padding: 10px;
+header{
+    margin: 0 auto;
+    width: 800px;
+    height: 272px;
+    background: url('grfx/header.jpg') no-repeat;
+    position: relative;
+}
+nav {
+    margin: 0;
+    padding: 0; 
+    position: absolute;   
+    bottom: 0;
+}
+ul {
+    list-style-type: none;
 }
 
-section.text ul{
-
-	text-decoration: none;
-	list-style-type: none;
+li {
+    display: inline;
 }
-.top-left{
-	float: left;
-	padding: 20px;
-
-}
-
-.top-menu{
-	padding-top: 120px;
-}
-
-section.test{
-
-	padding-bottom: 50px;
-}
-
-.float-right{
-	float: right;
-	padding: 20px;
-}
-
-.vloot3{
-	float: left;
-	padding: 20px;
-}
-
-section.test2{
-	background-color: white;
-	padding-bottom: 100px
-}
-
-h2{
-	background-color: white;
-}
-.naar-links{
-	float:right;
-	padding: 20px;
-}
-.naar-beneden{
-	float:left;
-	margin-top: 25px;
-	padding: 10px;
-}
-.duikboooten{
-	margin-top: 35px;
-	padding-bottom: 50px;
-	float: left;
-}
-a:link {
-  color: blue;
-  background-color: transparent;
-  text-decoration: none;
-  
-}
-li a:hover {
-	color: green
-
-}
+    
 li a {
     color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a{
-	padding-bottom: 5px;
+    
+li a:hover {
+    color: #00FF80;
 }
-h2{
-	margin-top: 20px;
-}
-.ruimte{
-	padding: 20px;
-	float: left;
-}
-.position{
-	position: absolute;
-	right: 350px;
-	bottom: : 100px;
-	
-}
-.totheleft{
-	float: right;
-	
-}
-.vloot5{
-	float: left;
-	padding: 20px;
 
+main {
+    width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding-top: 5px;
 }
-.vloot12{
-	float: right;
-	padding: 20px;
+h1 {
+    margin-top: 0;
+    padding: 5px;
+}
+
+header>p {
+    padding: 5px;
+}
+
+img.left {
+    float: left;
+    margin: 15px 15px 15px 15px;
+}
+
+img.left1{
+    float: left;
+    margin: 15px 15px 15px 15px;
+}
+
+img.right {
+    float: right;
+    margin: 15px 15px 15px 15px;
+}
+p {
+    margin-left: 10px;
 }
